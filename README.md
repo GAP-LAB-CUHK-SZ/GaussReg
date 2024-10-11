@@ -124,7 +124,7 @@ TODO
 
 ---
 
-# Plan of Release
+## Plan of Release
 - [x] Release ScanNet-GSReg dataset
 - [x] Release training and test code of coarse registration on the ScanNet-GSReg dataset
 - [x] Release the code of Guassian Splatting fusion and filtering
