@@ -20,8 +20,8 @@ import fpsample
 
 def make_parser():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--src_file", default="/zhdd/archive/cjh/NeRFTexTransfer/gaussian-splatting/output/dee0e06e-0/point_cloud/iteration_30000/point_cloud.ply", help="src point cloud numpy file")
-    parser.add_argument("--ref_file", default="/zhdd/archive/cjh/NeRFTexTransfer/gaussian-splatting/output/e9f7acef-2/point_cloud/iteration_30000/point_cloud.ply", help="ref point cloud numpy file")
+    parser.add_argument("--src_file", default="scene_name/B/output/point_cloud/iteration_30000/point_cloud.ply", help="src point cloud numpy file")
+    parser.add_argument("--ref_file", default="scene_name/A/output/point_cloud/iteration_30000/point_cloud.ply", help="ref point cloud numpy file")
     parser.add_argument("--output_path", default='demo_outputs', help="output file path")
     parser.add_argument("--weights", default='weights/coarse_registration.pth.tar', help="model weights file")
     parser.add_argument("--num_sample", type=int, default=30000, help="number of sample points")
