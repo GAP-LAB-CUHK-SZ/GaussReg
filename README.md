@@ -1,6 +1,7 @@
 # GaussReg: Fast 3D Registration with Gaussian Splatting (ECCV2024)
-<img src="assets/images/teaser.jpg" alt="img.jpg" width="100%" /> 
-[[Project Page]](https://jiahao620.github.io/gaussreg/)[[Paper]](https://arxiv.org/abs/2407.05254)
+<img src="assets/images/teaser.jpg" alt="img.jpg" width="100%" />
+
+## [Project Page](https://jiahao620.github.io/gaussreg/) | [Paper](https://arxiv.org/abs/2407.05254) 
 
 ---
 
