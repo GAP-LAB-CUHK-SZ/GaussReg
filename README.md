@@ -1,10 +1,6 @@
-# GaussReg [[Project Page]](https://jiahao620.github.io/gaussreg/)[[Paper]](https://arxiv.org/abs/2407.05254)
-
-**GaussReg: Fast 3D Registration with Gaussian Splatting** <br>
-Jiahao Chang, Yinglin Xu, Yihao Li, Yuantao Chen, Wensen Feng, Xiaoguang Han <br>
-In [ECCV, 2024](https://eccv2024.ecva.net/).
-
+# GaussReg: Fast 3D Registration with Gaussian Splatting (ECCV2024)
 <img src="assets/images/teaser.jpg" alt="img.jpg" width="100%" /> 
+[[Project Page]](https://jiahao620.github.io/gaussreg/)[[Paper]](https://arxiv.org/abs/2407.05254)
 
 ---
 
