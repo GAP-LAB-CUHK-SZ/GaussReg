@@ -264,7 +264,7 @@ def gaussian_fuse(input_path_1, input_path_2, transform_path, output_path):
 if __name__ == '__main__':
     from argparse import ArgumentParser
     parser = ArgumentParser(description="Fusion script parameters")
-    parser.add_argument('--root_path', type=str, default="/zssd/archive/cjh/NeRFTexTransfer/dataset/fitness")
+    parser.add_argument('--root_path', type=str, default="scene_name")
     parser.add_argument('--transform_path', type=str, default='demo_outputs/estimated_transform.npz')
     args, extras = parser.parse_known_args()
     root_path = args.root_path
