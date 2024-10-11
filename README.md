@@ -22,23 +22,23 @@ python setup.py build develop
 To test on your own data, please arange the data with the following structure:
 
 ```
-- scene_name
-    - A
-        - output
-            - point_cloud
-                - iteration_30000
-                    - point_cloud.ply
-            - cameras.json    
-            - cfg_args
-            - input.ply
-    - B
-        - output
-            - point_cloud
-                - iteration_30000
-                    - point_cloud.ply
-            - cameras.json    
-            - cfg_args
-            - input.ply
+|-- scene_name
+    |-- A
+        |-- output
+            |-- point_cloud
+                |-- iteration_30000
+                    |-- point_cloud.ply
+            |-- cameras.json    
+            |-- cfg_args
+            |-- input.ply
+    |-- B
+        |-- output
+            |-- point_cloud
+                |-- iteration_30000
+                    |-- point_cloud.ply
+            |-- cameras.json    
+            |-- cfg_args
+            |-- input.ply
 ```
 
 ### 1. Coarse Registration
@@ -76,34 +76,34 @@ The output file will be saved under 'scene_name/fuse'.
 In our paper, we construct a dataset called ScanNet-GSReg, comprising 1379 scenes from the [ScanNet](https://github.com/ScanNet/ScanNet) dataset. And our GaussReg is trained on the ScanNetGSReg training set. The proposed ScanNet-GSReg dataset can be download [here](https://cuhko365.sharepoint.com/sites/ITSO_GAPLAB-GaussReg/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITSO%5FGAPLAB%2DGaussReg%2FShared%20Documents%2FScanNet%5FGSReg&p=true&ga=1). The dataset is organized as follows:
 
 ```
-- ScanNet-GSReg
-    - train
-        - scene0000_00
-            - A
-                - output
-                    - point_cloud
-                        - iteration_10000
-                            - point_cloud.ply
-                    - cameras.json    
-                    - cfg_args
-                    - input.ply
-                - images
-                - sparse
-                - features.h5
-                - global-feats-netvlad.h5
-                - matches.h5
-                - pairs-netvlad.txt
-            - B   
-            - log.txt
-        - scene0000_01
+|-- ScanNet-GSReg
+    |-- train
+        |-- scene0000_00
+            |-- A
+                |-- output
+                    |-- point_cloud
+                        |-- iteration_10000
+                            |-- point_cloud.ply
+                    |-- cameras.json    
+                    |-- cfg_args
+                    |-- input.ply
+                |-- images
+                |-- sparse
+                |-- features.h5
+                |-- global-feats-netvlad.h5
+                |-- matches.h5
+                |-- pairs-netvlad.txt
+            |-- B   
+            |-- log.txt
+        |-- scene0000_01
         ...
-    - test
-        - scene0707_00
-        - scene0708_00
+    |-- test
+        |-- scene0707_00
+        |-- scene0708_00
         ...
-    - train.pkl 
-    - test.pkl 
-    - test_transformations.npz
+    |-- train.pkl 
+    |-- test.pkl 
+    |-- test_transformations.npz
 
 ```
 
