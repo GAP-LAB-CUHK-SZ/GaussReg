@@ -73,7 +73,7 @@ The output file will be saved under 'scene_name/fuse'.
 ## Training and Test on the ScanNet-GSReg Dataset
 
 ### 0. Data Preparation
-In our paper, we construct a dataset called ScanNet-GSReg, comprising 1379 scenes from the [ScanNet](https://github.com/ScanNet/ScanNet) dataset. And our GaussReg is trained on the ScanNetGSReg training set. The proposed ScanNet-GSReg dataset can be download [here](https://cuhko365.sharepoint.com/sites/ITSO_GAPLAB-GaussReg/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITSO%5FGAPLAB%2DGaussReg%2FShared%20Documents%2FScanNet%5FGSReg&p=true&ga=1). The dataset is organized as follows:
+In our paper, we construct a dataset called ScanNet-GSReg, comprising 1379 scenes from the [ScanNet](https://github.com/ScanNet/ScanNet) dataset. And our GaussReg is trained on the ScanNetGSReg training set. The proposed ScanNet-GSReg dataset can be download [here](https://cuhko365.sharepoint.com/:f:/s/ITSO_GAPLAB-GaussReg/Eomcyk5utZROuVABknvNPNkBEYmZzlv09Ob3ucNXLkBAKA?e=BZYAU4). The dataset is organized as follows:
 
 ```
 |-- ScanNet-GSReg
