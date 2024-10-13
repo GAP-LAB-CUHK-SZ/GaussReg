@@ -268,11 +268,11 @@ if __name__ == '__main__':
     parser.add_argument('--transform_path', type=str, default='demo_outputs/estimated_transform.npz')
     args, extras = parser.parse_known_args()
     root_path = args.root_path
-    input_path_1 = os.path.join(root_path, "A/point_cloud/iteration_30000/point_cloud.ply")
-    input_path_2 = os.path.join(root_path, "B/point_cloud/iteration_30000/point_cloud.ply")
+    input_path_1 = os.path.join(root_path, "A/output/point_cloud/iteration_30000/point_cloud.ply")
+    input_path_2 = os.path.join(root_path, "B/output/point_cloud/iteration_30000/point_cloud.ply")
     transform_path = args.transform_path
-    os.makedirs(os.path.join(root_path, "fuse/point_cloud/iteration_30000"))
-    shutil.copytree(os.path.join(root_path, "A/sparse"), os.path.join(root_path, "fuse/sparse"))
-    shutil.copy(os.path.join(root_path, "A/cfg_args"), os.path.join(root_path, "fuse/cfg_args"))
-    output_path = os.path.join(root_path, "fuse/point_cloud/iteration_30000/point_cloud.ply")
+    os.makedirs(os.path.join(root_path, "fuse/output/point_cloud/iteration_30000"))
+    shutil.copy(os.path.join(root_path, "A/output/cameras.json"), os.path.join(root_path, "fuse/output/cameras.json"))
+    shutil.copy(os.path.join(root_path, "A/output/cfg_args"), os.path.join(root_path, "fuse/output/cfg_args"))
+    output_path = os.path.join(root_path, "fuse/output/point_cloud/iteration_30000/point_cloud.ply")
     gaussian_fuse(input_path_1, input_path_2, transform_path, output_path)
