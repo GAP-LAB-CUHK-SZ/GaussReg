@@ -40,6 +40,7 @@ To test on your own data, please arange the data with the following structure:
             |-- cfg_args
             |-- input.ply
 ```
+A sample dataset can be download [here](https://1drv.ms/f/c/31078419ab45666e/EiUYfzkosRpPv2zhu38kLbwBIR-GA2IvvCyMYc3VGWdFhA?e=o2MSW2).
 
 ### 1. Coarse Registration
 
