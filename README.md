@@ -40,7 +40,7 @@ To test on your own data, please arange the data with the following structure:
             |-- cfg_args
             |-- input.ply
 ```
-A sample dataset can be download (One Drive[here](https://1drv.ms/f/c/31078419ab45666e/EiUYfzkosRpPv2zhu38kLbwBIR-GA2IvvCyMYc3VGWdFhA?e=o2MSW2) / Baidu Cloud[here](https://pan.baidu.com/s/101wdzP3ETx1JVVLN9FrZQg?pwd=tq39)).
+A sample dataset can be download via [OneDrive](https://1drv.ms/f/c/31078419ab45666e/EiUYfzkosRpPv2zhu38kLbwBIR-GA2IvvCyMYc3VGWdFhA?e=o2MSW2) or [Baidu Cloud](https://pan.baidu.com/s/101wdzP3ETx1JVVLN9FrZQg?pwd=tq39).
 
 ### 1. Coarse Registration
 
