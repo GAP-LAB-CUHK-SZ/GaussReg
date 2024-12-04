@@ -107,7 +107,7 @@ In our paper, we construct a dataset called ScanNet-GSReg, comprising 1379 scene
     |-- test_transformations.npz
 
 ```
-train.pkl and test.pkl can be download [here](https://1drv.ms/f/c/31078419ab45666e/EvF8hMSxY1ZKpng7yYK-WzMB8RuFNZsx3OksoKYgqAVi7g?e=tBqma5).
+train.pkl, test.pkl and test_transformations.npz can be download [here](https://1drv.ms/f/c/31078419ab45666e/EvF8hMSxY1ZKpng7yYK-WzMB8RuFNZsx3OksoKYgqAVi7g?e=tBqma5).
 ### 1. Coarse Registration
 The code for Coarse Registration is in 'experiments/geotransformer.gaussian_splatting.indoor'.
 First, you should set "_C.data.dataset_root" as the dataset root path in config.py. Run the following code to train the Coarse Registration network:
