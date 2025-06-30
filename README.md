@@ -125,8 +125,8 @@ First of all, you should update your environment:
 ```
 pip uninstall torch
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
-pip install submodules/diff-gaussian-rasterization
-pip install submodules/simple-knn/
+pip install wheels/gaussian_splatting/submodules/diff-gaussian-rasterization
+pip install wheels/gaussian_splatting/submodules/simple-knn/
 ```
 The pretrained model of fine registration can be download [here](https://1drv.ms/u/c/31078419ab45666e/EZioyJEyfyhHjLKn_WbS1EAB-wkXiDn1FtiHKLTGa1Innw?e=mplIEN). Put the pretrained models under
 ```
@@ -134,11 +134,12 @@ weights/fine_registration.pth.tar
 ```
 For evaluation on the ScanNet-GSReg dataset, first you should render depth maps of test set via running the following code:
 ```
-cd wheels/gaussian-splatting
+cd wheels/gaussian_splatting
 python render_depth.py
 ```
 Then run the following code to test the Fine Registration network on the ScanNet-GSReg dataset:
 ```
+cd ../..
 python experiments/geotransformer.gaussian_splatting.indoor_refine/test.py
 ```
 ---
@@ -149,7 +150,7 @@ python experiments/geotransformer.gaussian_splatting.indoor_refine/test.py
 - [x] Release the code of Guassian Splatting fusion and filtering
 - [x] Release sample dataset for test
 - [x] Release test code of fine registration on the ScanNet-GSReg dataset
-- [] Release training code of fine registration on the ScanNet-GSReg dataset
+- [ ] Release training code of fine registration on the ScanNet-GSReg dataset
 
 ## Citation
 If you find our work is helpful, please cite
