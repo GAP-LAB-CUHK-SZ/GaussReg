@@ -4,6 +4,9 @@
 ## [Project Page](https://jiahao620.github.io/gaussreg/) | [Paper](https://arxiv.org/abs/2407.05254) 
 
 ---
+## Updates
+
+- Test code of fine registration is uploaded to the refine branch. It will be merged into the main branch once finalized.
 
 ## Install
 This implementation uses Python 3.8.0, [torch1.7.1+cu110](http://pytorch.org/). We recommend to use [conda](https://docs.conda.io/en/latest/miniconda.html) to deploy the environment.
