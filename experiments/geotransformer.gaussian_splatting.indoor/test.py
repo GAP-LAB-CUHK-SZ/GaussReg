@@ -22,7 +22,7 @@ import fpsample
 def make_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument("--scannet_path", default="ScanNet-GSReg", help="dataset path")
-    parser.add_argument("--output_path", default='scannet_test_coarse', help="output file path")
+    parser.add_argument("--output_path", default='scannet_test_final', help="output file path")
     parser.add_argument("--weights", default='weights/coarse_registration.pth.tar', help="model weights file")
     parser.add_argument("--num_sample", type=int, default=30000, help="number of sample points")
     return parser
